@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="189" started-at="2018-06-21T14:16:53Z" finished-at="2018-06-21T14:16:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="189" started-at="2018-06-21T14:16:53Z" finished-at="2018-06-21T14:16:53Z">
+      <class name="com.test.assertion.TestAlpha">
+        <test-method status="PASS" signature="test_meth1()[pri:0, instance:com.test.assertion.TestAlpha@51081592]" name="test_meth1" duration-ms="158" started-at="2018-06-21T19:46:53Z" finished-at="2018-06-21T19:46:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_meth1 -->
+      </class> <!-- com.test.assertion.TestAlpha -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,38 @@
+1[main]2018-06-17 08:24:11 java.sql.Driver ************* Test suite terminates excuting *****************
+11[TestNG]2018-06-17 08:23:43 java.sql.Driver Currently executing parameters for this run: DeviceType=Desktop, DeviceName=LocalMachine, BrowserName=firefox
+11[TestNG]2018-06-17 08:23:58 java.sql.Driver desktop driver instance created successfully
+11[TestNG]2018-06-17 08:23:58 java.sql.Driver Report object generated successfully for ReportFirefoxTest ,along with the execution parameter's information
+11[TestNG]2018-06-17 08:23:58 java.sql.Driver ************* Test case SamplePOM1_Local_Machine_Firefox61 start excuting *****************
+11[TestNG]2018-06-17 08:23:58 java.sql.Driver cons created successfully
+11[TestNG]2018-06-17 08:24:02 java.sql.Driver URL is launched successfully
+11[TestNG]2018-06-17 08:24:04 java.sql.Driver logged-in to bank successfully
+11[TestNG]2018-06-17 08:24:05 java.sql.Driver mini statement link created successfully
+11[TestNG]2018-06-17 08:24:07 java.sql.Driver account no entered and details fetched successfully
+11[TestNG]2018-06-17 08:24:09 java.sql.Driver logged-out of bank successfully
+11[TestNG]2018-06-17 08:24:11 java.sql.Driver browser successfully killed
+11[TestNG]2018-06-17 08:24:11 java.sql.Driver driver instance successfully killed
+11[TestNG]2018-06-17 08:24:11 java.sql.Driver ************* Test case SamplePOM1_Local_Machine_Firefox61 terminates excuting *****************
+12[TestNG]2018-06-17 08:23:43 java.sql.Driver Currently executing parameters for this run: DeviceType=Desktop, DeviceName=LocalMachine, BrowserName=chrome
+12[TestNG]2018-06-17 08:23:54 java.sql.Driver desktop driver instance created successfully
+12[TestNG]2018-06-17 08:23:54 java.sql.Driver Report object generated successfully for ReportChromeTest ,along with the execution parameter's information
+12[TestNG]2018-06-17 08:23:54 java.sql.Driver ************* Test case SamplePOM1_Local_Machine_Chrome start excuting *****************
+12[TestNG]2018-06-17 08:23:54 java.sql.Driver cons created successfully
+12[TestNG]2018-06-17 08:24:00 java.sql.Driver URL is launched successfully
+12[TestNG]2018-06-17 08:24:02 java.sql.Driver logged-in to bank successfully
+12[TestNG]2018-06-17 08:24:04 java.sql.Driver mini statement link created successfully
+12[TestNG]2018-06-17 08:24:05 java.sql.Driver account no entered and details fetched successfully
+12[TestNG]2018-06-17 08:24:08 java.sql.Driver logged-out of bank successfully
+12[TestNG]2018-06-17 08:24:08 java.sql.Driver browser successfully killed
+12[TestNG]2018-06-17 08:24:08 java.sql.Driver driver instance successfully killed
+12[TestNG]2018-06-17 08:24:08 java.sql.Driver ************* Test case SamplePOM1_Local_Machine_Chrome terminates excuting *****************
+13[TestNG]2018-06-17 08:23:43 java.sql.Driver Currently executing parameters for this run: DeviceType=Mobile, DeviceName=Redmi4, BrowserName=Chrome
+13[TestNG]2018-06-17 08:23:59 java.sql.Driver mobile Android driver instance created successfully
+13[TestNG]2018-06-17 08:23:59 java.sql.Driver Report object generated successfully for ReportAndroidWebTest ,along with the execution parameter's information
+13[TestNG]2018-06-17 08:23:59 java.sql.Driver ************* Test case TestDuo_Mobile_Web start excuting *****************
+13[TestNG]2018-06-17 08:23:59 java.sql.Driver mobile cons created successfully
+13[TestNG]2018-06-17 08:24:01 java.sql.Driver URL is launched successfully
+13[TestNG]2018-06-17 08:24:03 java.sql.Driver entered text in TB is launched successfully
+13[TestNG]2018-06-17 08:24:04 java.sql.Driver search button successfully clicked
+13[TestNG]2018-06-17 08:24:06 java.sql.Driver browser successfully killed
+13[TestNG]2018-06-17 08:24:06 java.sql.Driver driver instance successfully killed
+13[TestNG]2018-06-17 08:24:06 java.sql.Driver ************* Test case TestDuo_Mobile_Web terminates excuting *****************

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SamplePOM1" thread-count="10" parallel="tests">
+
+	<listeners>
+		<listener class-name="com.samplePOM.reportListeners.TestListener"></listener>
+		<listener class-name="com.samplePOM.logger.GroupedLoggingAppender"></listener>
+		<listener class-name="com.samplePOM.logger.SuiteListener"></listener>
+	</listeners>
+
+	<test name="SamplePOM1_Local_Machine_Firefox61">
+		<parameter name="deviceType" value="Desktop" />
+		<parameter name="platformName" value="Windows" />
+		<parameter name="platformVersion" value="7" />
+		<parameter name="deviceName" value="LocalMachine" />
+		<parameter name="remoteURL" value="http://192.168.43.154:5555/wd/hub/" />
+		<parameter name="browser" value="firefox" />
+		<parameter name="reportName" value="ReportFirefoxTest" />
+		<classes>
+			<class name="com.samplePOM.test.TestBank3" />
+		</classes>
+	</test>
+	
+	<!-- <test name="SamplePOM1_Local_Machine_Firefox">
+		<parameter name="deviceType" value="Desktop" />
+		<parameter name="platformName" value="Windows" />
+		<parameter name="platformVersion" value="7" />
+		<parameter name="deviceName" value="LocalMachine" />
+		<parameter name="remoteURL" value="http://192.168.43.154:5554/wd/hub/" />
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.samplePOM.test.TestBank1" />
+		</classes>
+	</test> -->
+	
+	<test name="SamplePOM1_Local_Machine_Chrome">
+		<parameter name="deviceType" value="Desktop" />
+		<parameter name="platformName" value="Windows" />
+		<parameter name="platformVersion" value="7" />
+		<parameter name="deviceName" value="LocalMachine" />
+		<parameter name="remoteURL" value="http://192.168.43.154:7777/wd/hub/" />
+		<parameter name="browser" value="chrome" />
+		<parameter name="reportName" value="ReportChromeTest" />
+		<classes>
+			<class name="com.samplePOM.test.TestBank3" />
+		</classes>
+	</test>
+	
+	<test name="TestDuo_Mobile_Web">
+		<parameter name="deviceType" value="Mobile" />
+		<parameter name="platformName" value="Android" />
+		<parameter name="deviceName" value="Redmi4" />
+		<parameter name="platformVersion" value="6.0.1" />
+		<parameter name="udid" value="4a98ef27cf40" />
+		<parameter name="remoteURL" value="http://127.0.0.1:4723/wd/hub" />
+		<parameter name="browser" value="Chrome" />
+		<parameter name="reportName" value="ReportAndroidWebTest" />
+		<classes>
+			<class name="com.samplePOM.test.MobileTest1" />
+			<!-- <class name="com.samplePOM.test.TestBank3" /> -->
+		</classes>
+	</test>
+	
+	<!-- <test name="TestDuo_Mobile_App">
+		<parameter name="deviceType" value="Mobile" />
+		<parameter name="platformName" value="Android" />
+		<parameter name="deviceName" value="Redmi4" />
+		<parameter name="platformVersion" value="6.0.1" />
+		<parameter name="udid" value="4a98ef27cf40" />
+		<parameter name="remoteURL" value="http://127.0.0.1:4723/wd/hub" />
+		<parameter name="browser" value="NA" />
+		<classes>
+			<class name="com.samplePOM.test.TestBank3" />
+		</classes>
+	</test> -->
+
+</suite> <!-- Suite -->

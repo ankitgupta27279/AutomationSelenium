@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" guice-stage="DEVELOPMENT" name="Failed suite [SamplePOM1]" parallel="tests">
+  <parameter name="deviceType" value="Mobile"/>
+  <parameter name="reportName" value="ReportAndroidWebTest"/>
+  <parameter name="platformVersion" value="6.0.1"/>
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="remoteURL" value="http://127.0.0.1:4723/wd/hub"/>
+  <parameter name="platformName" value="Android"/>
+  <parameter name="udid" value="4a98ef27cf40"/>
+  <parameter name="deviceName" value="Redmi4"/>
+  <listeners>
+    <listener class-name="com.samplePOM.reportListeners.TestListener"/>
+    <listener class-name="com.samplePOM.logger.GroupedLoggingAppender"/>
+    <listener class-name="com.samplePOM.logger.SuiteListener"/>
+  </listeners>
+  <test name="SamplePOM1_Local_Machine_Chrome(failed)" parallel="tests">
+    <parameter name="deviceType" value="Desktop"/>
+    <parameter name="reportName" value="ReportChromeTest"/>
+    <parameter name="platformVersion" value="7"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="remoteURL" value="http://192.168.43.154:7777/wd/hub/"/>
+    <parameter name="platformName" value="Windows"/>
+    <parameter name="deviceName" value="LocalMachine"/>
+    <classes>
+      <class name="com.samplePOM.test.TestBank3">
+        <methods>
+          <include name="initSetUp"/>
+          <include name="initSetUp"/>
+          <include name="getResult"/>
+          <include name="getResult"/>
+          <include name="skipTest"/>
+          <include name="killBrowser"/>
+          <include name="killBrowser"/>
+          <include name="initConstr"/>
+          <include name="initConstr"/>
+          <include name="failTest"/>
+          <include name="logoutBank"/>
+          <include name="logoutBank"/>
+        </methods>
+      </class> <!-- com.samplePOM.test.TestBank3 -->
+      <class name="com.samplePOM.test.MobileTest1">
+        <methods>
+          <include name="initSetUp"/>
+          <include name="initConstr"/>
+          <include name="endAllReports"/>
+          <include name="killBrowser"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.samplePOM.test.MobileTest1 -->
+    </classes>
+  </test> <!-- SamplePOM1_Local_Machine_Chrome(failed) -->
+  <test name="SamplePOM1_Local_Machine_Firefox61(failed)" parallel="tests">
+    <parameter name="deviceType" value="Desktop"/>
+    <parameter name="reportName" value="ReportFirefoxTest"/>
+    <parameter name="platformVersion" value="7"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="remoteURL" value="http://192.168.43.154:5555/wd/hub/"/>
+    <parameter name="platformName" value="Windows"/>
+    <parameter name="deviceName" value="LocalMachine"/>
+    <classes>
+      <class name="com.samplePOM.test.TestBank3">
+        <methods>
+          <include name="initSetUp"/>
+          <include name="initSetUp"/>
+          <include name="getResult"/>
+          <include name="getResult"/>
+          <include name="skipTest"/>
+          <include name="killBrowser"/>
+          <include name="killBrowser"/>
+          <include name="initConstr"/>
+          <include name="initConstr"/>
+          <include name="failTest"/>
+          <include name="logoutBank"/>
+          <include name="logoutBank"/>
+        </methods>
+      </class> <!-- com.samplePOM.test.TestBank3 -->
+      <class name="com.samplePOM.test.MobileTest1">
+        <methods>
+          <include name="initSetUp"/>
+          <include name="initConstr"/>
+          <include name="endAllReports"/>
+          <include name="killBrowser"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.samplePOM.test.MobileTest1 -->
+    </classes>
+  </test> <!-- SamplePOM1_Local_Machine_Firefox61(failed) -->
+</suite> <!-- Failed suite [SamplePOM1] -->

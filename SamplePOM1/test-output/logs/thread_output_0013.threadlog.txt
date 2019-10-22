@@ -1,0 +1,11 @@
+13[TestNG]2018-06-17 08:23:43 java.sql.Driver Currently executing parameters for this run: DeviceType=Mobile, DeviceName=Redmi4, BrowserName=Chrome
+13[TestNG]2018-06-17 08:23:59 java.sql.Driver mobile Android driver instance created successfully
+13[TestNG]2018-06-17 08:23:59 java.sql.Driver Report object generated successfully for ReportAndroidWebTest ,along with the execution parameter's information
+13[TestNG]2018-06-17 08:23:59 java.sql.Driver ************* Test case TestDuo_Mobile_Web start excuting *****************
+13[TestNG]2018-06-17 08:23:59 java.sql.Driver mobile cons created successfully
+13[TestNG]2018-06-17 08:24:01 java.sql.Driver URL is launched successfully
+13[TestNG]2018-06-17 08:24:03 java.sql.Driver entered text in TB is launched successfully
+13[TestNG]2018-06-17 08:24:04 java.sql.Driver search button successfully clicked
+13[TestNG]2018-06-17 08:24:06 java.sql.Driver browser successfully killed
+13[TestNG]2018-06-17 08:24:06 java.sql.Driver driver instance successfully killed
+13[TestNG]2018-06-17 08:24:06 java.sql.Driver ************* Test case TestDuo_Mobile_Web terminates excuting *****************
